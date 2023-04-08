@@ -1,7 +1,7 @@
 header{
     overflow: hidden;
     display: block;
-    min-width: 100%;
+    width: 100%;
     height: fixed;
     font-size: 1rem;
     position:sticky;
@@ -9,7 +9,7 @@ header{
 }
 body{
     display: contents;
-    width:min-content;
+    width:100%;
     height:min-content;
     background-color: wheat;
     display: initial;
@@ -24,6 +24,7 @@ nav div{
     padding: 10px;
     text-decoration: none;
     font-family: Comic Sans MS, Comic Sans, cursive;
+    display:flex;
 }
 .navBody{
     width: 8%;
